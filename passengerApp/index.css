@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(177, 235, 215);
+    justify-items: center;
+    padding: 10px 10px;
+
+}
+.text{
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#increment-btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: darkred;
+    width: 150px;
+}
+#save-btn{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(75, 117, 172);
+    width: 150px;   
+}
