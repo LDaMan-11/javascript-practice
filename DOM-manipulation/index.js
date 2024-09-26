@@ -39,8 +39,8 @@ for( var i=0;i < li.length ; i++){
 var header= document.querySelector('#main-header')
 header.style.borderBottom= 'solid 4px #ccc'
 
-var input= document.querySelector('input')
-input.value= 'hello wolrd'
+// var input= document.querySelector('input')
+// input.value= 'hello wolrd'
 
 var submit = document.querySelector('input[type="submit"]')
 submit.value= 'send'
