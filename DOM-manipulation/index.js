@@ -11,7 +11,7 @@
 
 //console.log(document.getElementById('header-title'))
 var headerTitle = document.getElementById("header-title")
-console.log(headerTitle)
+// console.log(headerTitle)
 
 Header = document.getElementById("header-title")
 Header.style.borderBottom= 'solid 3px'
@@ -28,8 +28,8 @@ Header.style.borderBottom= 'solid 3px'
 // }
 
 var li= document.getElementsByTagName("li")
-console.log(li)
-console.log(li[0])
+// console.log(li)
+// console.log(li[0])
 li[0].style.fontweight = 'bold'
 
 for( var i=0;i < li.length ; i++){
@@ -48,12 +48,17 @@ submit.value= 'send'
 var item= document.querySelector('.listGroup')
 item.style.color = 'red'
 
-// var lastItem= document.querySelector('.listGroup: nth-child(3)')
-// lastItem.style.color ='blue'
+
+// var lastItem= document.querySelector('.listGroup: first-child')
+var item= document.getElementsByClassName('listGroup-item')[2]
+item.style.color ='blue'
 
 //var lastItem= document.querySelector('.listGroup: last-child')
 //lastItem.style.color ='orange'
 
-var titles= document.querySelector('.title')
-console.log(titles)
-titles[0].textContent= 'hello'
+// var titles= document.querySelector('.title')
+console.log("item" ,item)
+// titles[0].textContent= 'hello'
+
+let ul = document.querySelector("ul")
+console.log(ul.parentNode)
